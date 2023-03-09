@@ -1,0 +1,86 @@
+:root {
+  /* --color-1: #ffc107;
+  --color-2: #d7bde2;
+  --color-3: #2c3e50;
+  --color-4: #f9e79f; */
+  --color-1: #2c3e50;
+  --color-2: #ffe388;
+  --color-3: #ffc300;
+  --color-4: #fff0be;
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+  font-family: "Lato", Arial, sans-serif;
+  color: var(--color-1);
+}
+
+html {
+  overflow: hidden;
+  background-color: var(--color-1);
+  font-size: 18px;
+}
+
+.form-input {
+  width: 70px;
+}
+
+.form-select {
+  font-size: 14px;
+  width: 180px;
+}
+
+.form-input,
+.form-select {
+  background-color: var(--color-4);
+  height: 2.5rem;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-input:focus,
+.form-select:focus {
+  outline: none;
+  border: 3px solid var(--color-3);
+}
+
+#calculator {
+  background-color: var(--color-2);
+  height: 550px;
+  width: 360px;
+  margin: 40px auto;
+  border-radius: 30px;
+}
+
+#title {
+  background-color: var(--color-3);
+  border-radius: 20px 20px 0 0;
+  padding: 25px 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+#tips-form {
+  padding: 0 30px;
+}
+
+#tips-total {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#submit {
+  text-transform: uppercase;
+  display: block;
+  background-color: var(--color-3);
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 900;
+}

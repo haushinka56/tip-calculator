@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div id="calculator">
+      <h1 id="title">Tip Calculator</h1>
+      <form id="tips-form">
+        <label for="bill"> How much is your bill? </label>
+        <p>
+          $
+          <input
+            class="form-input"
+            type="number"
+            min="1"
+            placeholder="100"
+            name="bill"
+            id="bill"
+          />
+        </p>
+        <label for="service-quality"> How was the service? </label>
+        <p>
+          <select
+            class="form-select"
+            name="service-quality"
+            id="service-quality"
+          >
+            <option disabled selected>Choose an option</option>
+            <option value="0.3">Amazing - 30%</option>
+            <option value="0.2">Good - 20%</option>
+            <option value="0.15">Acceptable - 15%</option>
+            <option value="0.1">Bad - 10%</option>
+            <option value="0.05">Awful - 5%</option>
+          </select>
+        </p>
+        <label for="people">How many people are splitting the bill?</label>
+        <p>
+          <input
+            class="form-input"
+            type="number"
+            min="1"
+            value="1"
+            placeholder="1"
+            name="people"
+            id="people"
+          />
+        </p>
+
+        <div id="tips-total">
+          <p>
+            Total tip: $<span id="tip">0.00</span><span id="each"> each</span>
+          </p>
+        </div>
+
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
