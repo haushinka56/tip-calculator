@@ -19,7 +19,7 @@
 html {
   overflow: hidden;
   background-color: var(--color-1);
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .form-input {
@@ -27,7 +27,7 @@ html {
 }
 
 .form-select {
-  font-size: 14px;
+  font-size: 12px;
   width: 180px;
 }
 
@@ -47,19 +47,19 @@ html {
 
 #calculator {
   background-color: var(--color-2);
-  height: 550px;
+  height: 475px;
   width: 360px;
-  margin: 40px auto;
+  margin: 20px auto;
   border-radius: 30px;
 }
 
 #title {
   background-color: var(--color-3);
   border-radius: 20px 20px 0 0;
-  padding: 25px 0 20px;
+  padding: 20px 0 15px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 900;
 }
 
@@ -68,7 +68,7 @@ html {
 }
 
 #tips-total {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 5px;
   text-align: center;
 }
