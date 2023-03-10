@@ -7,7 +7,7 @@ This is a simple web application that calculates the tip for a bill and divides 
 To run the application, click [here](https://haushinka56.github.io/Tip-Calculator/)
 
 <p align="center">
-  <img alt="tips calculator" src=".github/RPG_screenshot.png" width="100%">
+  <img alt="tips calculator" src=".github/screenshot.png" width="100%">
 </p>
 
 ## Usage
